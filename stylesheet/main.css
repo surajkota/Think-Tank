@@ -1,0 +1,204 @@
+
+
+#mine
+{
+	width:100%;
+	height:20%;
+	float:left;
+
+
+}
+
+body
+{
+	background:url(../images/background%20layer.jpg)  center top no-repeat ;
+	/*color:#c0c0c0;asdf*/
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	background-attachment:fixed;
+	background-size:cover;
+	width:100%;
+	height:100%
+}
+
+
+/*pop up added by abhishek */
+#black  {
+position:relative;
+width:100%;
+height:100%;
+left:0;
+top:0;
+!background-color:black;
+opacity: 0.9;
+!cursor:default;
+z-index:9999;
+}
+
+#abh {display:none;}
+
+#close {
+    border-radius: 17px; -moz-border-radius: 17px; -webkit-border-radius: 17px; -khtml-border-radius: 17px;
+    background: url("../images/close.png") no-repeat scroll 50% 50% #0081DB;
+    color: #FFFFFF;
+    display: block;
+    height: 17px;
+    position: absolute;
+    right: 5px;
+    text-decoration: none;
+    top: 5px;
+    width: 17px;
+    z-index: 100;
+}
+
+#close:hover {background-color: #D0583F;}
+#close span {display:none;}
+
+#popup-container {
+    background: none repeat scroll 0 0 #C6E0E7;
+    cursor: default;
+    margin: 0 auto;
+    opacity: 1;
+    overflow: hidden;
+    padding: 6px;
+    position: relative;
+    top: 50px;
+    width: 380px;
+    z-index: 100000;
+    border-radius: 20px; -moz-border-radius: 20px; -webkit-border-radius: 20px; -khtml-border-radius: 20px;
+}
+
+#pop_up{
+    background-color: #FFFFFF;
+    color: #000000;
+    max-height: 400px;
+    overflow: auto;
+    padding: 20px;
+    border-radius: 20px; -moz-border-radius: 20px; -webkit-border-radius: 20px; -khtml-border-radius: 20px;
+}
+.entry1 {
+	font-size:13px;
+}
+
+/* finish abhishek*/
+
+#center
+{
+	padding: 20px 0px 0px 0px;
+	!background-image: url(../images/wordist%20cloud.png);
+	!background-repeat:repeat;	
+	
+	
+	
+	
+}
+
+#cright
+{
+	margin-top: 90px;
+	color: #FFFFFF;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-style: dashed;
+	opacity: .8;
+	border-color: #ebeae7;
+	
+	background-repeat: no-repeat;
+	height: 800px;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+}
+ul#ulist {
+	font-weight: bold;
+	font-size:1.2em;
+	width:80%;
+	padding:20px 10px 10px 20px;
+}
+
+.list
+{
+	
+	list-style-type:none;
+	!background-image:url('../images/clouda.png');
+	!background-repeat:no-repeat;
+	!background-size:100% 97%;
+	!height:100px;
+	margin-top:20px;
+	padding:28px 7px 7px 5px;
+	/*color:#D9DCDF;
+	padding:4px 0px 2px 0px;
+	list-style-type:none;
+	font-size:1.5em;
+	border-bottom:dashed #bbae9d;
+	border-bottom-width:3px;*/
+}
+ul#ulist li a{
+	
+	color:#750D0D;
+	display:block;
+}
+li:hover {
+	!background-image:url('../images/ncloud.png');
+	!background-size:100% 100%;	
+}
+ul#ulist li a:hover {color:#B30000;}
+li:visited {color:#750D0D;}
+.tmain
+{
+color:#2D1600;
+background-color:#D6D6D6;
+text-align:center;
+}
+.talt
+{
+color:#2D1600;
+background-color:#D6D6D6;
+text-align:center;
+}
+.thead
+{
+color:#2D1600;
+background-color:#D6D6D6;
+}
+
+a:link {color:#e0e0e0; text-decoration:none;} 
+a:visited {color:#e0e0e0; text-decoration:none;} 
+a:hover {color:#ffffff; text-decoration:none; }
+a:active {color:#00FF00; text-decoration:none;}
+
+.cubes
+{
+	height:60px; width:4%; float:left; padding-left:35px; padding-right:30px; padding-top:4px;
+}
+.cubes2
+{
+	height:60px; width:14%; float:left; background-color:#D6D6D6;
+}
+.cubes1
+{
+	height:60px; width:60px; background-color:#D6D6D6;
+}
+
+.roundedCorner
+{
+	text-align: center;
+	border: 2px solid #a1a1a1;
+	background: black;
+	color:white;
+	width: 50em;
+	border-radius: 25px;
+	box-shadow: 5px 5px 5px #888888;
+	float: right;
+	margin-bottom: 70px;
+	padding-top: 10px;
+	padding-right: 40px;
+	padding-bottom: 10px;
+	padding-left: 40px;
+}
+
+.like
+{
+height:50px; padding-top:10px;
+}
